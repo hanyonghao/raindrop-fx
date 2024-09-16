@@ -18,4 +18,5 @@ require("esbuild").build({
     outdir: "./bundle",
     publicPath: "bundle",
     globalName: "RaindropFX",
+    target: 'es2015',
 })

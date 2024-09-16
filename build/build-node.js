@@ -17,5 +17,6 @@ require("esbuild").build({
     sourcemap: true,
     outdir: "./dist",
     platform: "browser",
+    target: 'es2015',
     format: "cjs",
 })
